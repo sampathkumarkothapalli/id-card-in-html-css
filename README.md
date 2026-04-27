@@ -1,23 +1,67 @@
-# id-card-in-html-css[styles.css](https://github.com/user-attachments/files/27134610/styles.css)
-[index.html](https://github.com/user-attachments/files/27134604/index.html)
-
-# BITS Vizag Digital ID Card
-
-A clean, responsive Digital ID Card template designed for the **Baba Institute of Technology and Sciences (BITS Vizag)** using HTML and CSS.
-
-## 🚀 Features
-* **Official Branding:** Includes college logo sections and accreditation details.
-* **Responsive Layout:** Designed to look consistent across different screen sizes.
-* **CSS Styling:** Utilizes a custom `styles.css` for a professional, printed-card aesthetic.
-* **Side-text Integration:** Features the specific "COLLEGE CODE - BABA" vertical text alignment.
-
-## 🛠️ Technologies Used
-* **HTML5:** Structured semantic markup.
-* **CSS3:** Custom styling for card layouts, photo containers, and typography.
-
-## 📂 Project Structure
-```text
-.
-├── index.html       # The main ID card structure
-├── styles.css      # Custom styling and layout rules
-└── README.md       # Project documentation
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITS Vizag ID Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+creas
+<div class="id-card-cover">
+    <div class="id-card">
+        <div class="side-text">COLLEGE CODE - BABA</div>
+        <div class="header">
+            <div class="logo-placeholder">
+            </div>
+            <div class="bits-logo">
+                <div class="bits-blocks">
+                    <span class="b">B</span>
+                    <span class="i">I</span>
+                    <span class="t">T</span>
+                    <span class="s">S</span>
+                </div>
+                <div class="vizag-text">VIZAG</div>
+            </div>
+            <div class="right-shapes"></div>
+        </div>
+        <div class="institution-name">BABA INSTITUTE OF TECHNOLOGY AND SCIENCES</div>
+        <div class="accreditation">
+            Approved by AICTE, New Delhi & Affiliated to JNTUGV<br>
+            "Accredited by NAAC with <span class="red-grade">"A"</span> Grade"<br>
+            An ISO 9001:2015 Certified Institution
+        </div>
+        <div class="photo-container">
+            <div class="photo-placeholder">
+                <img src="WhatsApp Image 2026-04-21 at 10.55.46 AM.jpeg">
+            </div>
+        </div>
+        <div class="student-details">
+            <div class="detail-row">
+                <div class="detail-label">Name</div>
+                <div class="detail-colon">:</div>
+                <div class="detail-value">KOTHAPALLI SAMPATH<br>KUMAR</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Regd. No</div>
+                <div class="detail-colon">:</div>
+                <div class="detail-value">23NR1A0586</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Course</div>
+                <div class="detail-colon">:</div>
+                <div class="detail-value">B.Tech</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Branch</div>
+                <div class="detail-colon">:</div>
+                <div class="detail-value">CSE</div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="principal">PRINCIPAL</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
